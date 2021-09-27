@@ -25,7 +25,7 @@ export const EventCard = ({ event, markdown }) => {
     <Card
       className="event"
       title={ event.title }
-      headStyle={{ fontSize: '200%', textAlign: 'center' }}
+      headStyle={{ fontSize: '175%', textAlign: 'center' }}
       tabList={ tabList }
       onTabChange={ key => handleChangeTab(key, 'key') }
     >
