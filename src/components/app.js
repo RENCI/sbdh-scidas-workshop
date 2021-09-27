@@ -1,7 +1,8 @@
 import { EventCard } from './event/event-card'
 import './app.scss'
 import { Layout } from 'antd'
-import Markdown, * as event from '../content/scidas-workshop.md'
+import EventMarkdown, * as event from '../content/event-summary.md'
+import CodeOfConductMarkdown from '../content/code-of-conduct.md'
 import { Icon } from './icons'
 
 const { Footer } = Layout
@@ -10,7 +11,11 @@ export const App = () => {
   return (
     <div className="app">
       <Layout className="layout">
-        <EventCard event={ event } markdown={ <Markdown /> } />
+        <EventCard
+          event={ event }
+          markdown={ <EventMarkdown /> }
+          codeOfConductMarkdown={ <CodeOfConductMarkdown /> }
+        />
       </Layout>
       <Footer className="footer">
         <div>RENCI &copy; 2021</div>
