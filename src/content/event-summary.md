@@ -1,9 +1,9 @@
 ---
 title:  Scientific Data Analysis at Scale (SciDAS) Cloud Computing Workshop
-date: TBA
+date: December 6 - 7, 2021
 location: Virtual, via Zoom
-agendaURL: 
-registrationFormURL: 
+agendaURL: https://docs.google.com/document/d/19DIE_cmXNzyp9aQZPvKmrP02BF4KuDU-GDfClHIJyH0/edit?usp=sharing
+registrationFormURL: https://forms.gle/mRTemYgjdj36avRp9
 ---
 
 ## Description
@@ -27,7 +27,7 @@ The workshop will include demos of virtual machine (VM) labs using an artificial
 
 Participants are encouraged to attend with campus partners representing a variety of stakeholders for campus research computing (e.g., PIs, research computing professionals, etc.)   Participant funding is available.
 
-This workshop is funded by the NSF, hosted RENCI and organized by Alex Feltus, Shannon McKeen, Amanda Miller and the South Big Data Hub
+This workshop is funded by the NSF, hosted RENCI and organized by Alex Feltus, Shannon McKeen, Amanda Miller and the South Big Data Hub.
 
 ## Background
 

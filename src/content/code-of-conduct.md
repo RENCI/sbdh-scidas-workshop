@@ -40,8 +40,7 @@ The South Big Data Hub intends for these policies to meet the needs of our const
 ## Reporting Unacceptable Behavior
 
 If you or someone you know is subject to unacceptable and/or unwelcome behavior, or have any other concerns, please contact the on-duty point(s) of contact for this conference, workshop or field project as identified below and who will be on-site and available by email or phone.
-Amanda Miller
 
-[amiller@renci.org](mailto:amiller@renci.org)
-
+Amanda Miller<br/>
+[amiller@renci.org](mailto:amiller@renci.org)<br/>
 (917) 548-1591
