@@ -14,7 +14,7 @@ export const EventCard = ({ event, markdown, codeOfConductMarkdown }) => {
 
   const tabs = useMemo(() => [
     { title: 'Summary',         content: <SummaryTab event={ event } markdown={ markdown } />, },
-    { title: `Registration`,    content: <RegistrationTab url={ event.registrationURL } /> },
+    { title: `Registration`,    content: <RegistrationTab url={ event.registrationFormURL } /> },
     { title: `Agenda`,          content: <AgendaTab url={ event.agendaURL } /> },
     { title: `Code of Conduct`, content: <Tab title="Code of Conduct" markdown={ codeOfConductMarkdown } /> },
   ], [])
