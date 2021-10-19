@@ -8,6 +8,7 @@ import { Icon } from './icons'
 const { Footer } = Layout
 
 export const App = () => {
+  console.log(event.registrationFormURL)
   return (
     <div className="app">
       <Layout className="layout">
