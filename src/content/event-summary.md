@@ -3,7 +3,7 @@ title:  Scientific Data Analysis at Scale (SciDAS) Cloud Computing Workshop
 date: December 6 - 7, 2021
 location: Virtual, via Zoom
 agendaURL: https://docs.google.com/document/d/19DIE_cmXNzyp9aQZPvKmrP02BF4KuDU-GDfClHIJyH0/preview
-registrationFormURL: https://forms.gle/mRTemYgjdj36avRp9
+registrationFormURL: https://docs.google.com/forms/d/e/1FAIpQLSeJlNn3j1OdkUJz2vhtfhsnRiQm7GgsebZlMLHyXKWV_HwpEw/viewform?embedded=true
 ---
 
 ## Description
