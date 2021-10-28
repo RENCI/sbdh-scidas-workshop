@@ -7,8 +7,8 @@ export const RegistrationTab = ({ url }) => {
   return (
     <Space direction="vertical">
       <Title level={ 2 }>Registration</Title>
-      <div className="iframe-wrapper" style={{ height: '4750px' }}>
-        <iframe src={ url } width="780" height="4750" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+      <div className="iframe-wrapper" style={{ height: '1000px' }}>
+        <iframe src={ url } width="780" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
       </div>
       <div className="form-note">
         The Registration form should be embedded above.
