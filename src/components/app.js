@@ -3,6 +3,7 @@ import './app.scss'
 import { Layout } from 'antd'
 import EventMarkdown, * as event from '../content/event-summary.md'
 import CodeOfConductMarkdown from '../content/code-of-conduct.md'
+import ReimbursementMarkdown from '../content/reimbursement.md'
 import { Icon } from './icons'
 
 const { Footer } = Layout
@@ -16,6 +17,7 @@ export const App = () => {
           event={ event }
           markdown={ <EventMarkdown /> }
           codeOfConductMarkdown={ <CodeOfConductMarkdown /> }
+          reimbursementMarkdown={ <ReimbursementMarkdown /> }
         />
       </Layout>
       <Footer className="footer">

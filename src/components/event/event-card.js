@@ -9,7 +9,7 @@ import { Card, Divider, Layout, Space, Tabs, Typography } from 'antd'
 const { Text, Title } = Typography
 const { Meta } = Card
 
-export const EventCard = ({ event, markdown, codeOfConductMarkdown }) => {
+export const EventCard = ({ event, markdown, codeOfConductMarkdown, reimbursementMarkdown }) => {
   const [currentTab, setCurrentTab] = useState(0)
 
   const tabs = useMemo(() => [
@@ -17,6 +17,7 @@ export const EventCard = ({ event, markdown, codeOfConductMarkdown }) => {
     { title: `Registration`,    content: <RegistrationTab url={ event.registrationFormURL } /> },
     { title: `Agenda`,          content: <AgendaTab url={ event.agendaURL } /> },
     { title: `Code of Conduct`, content: <Tab title="Code of Conduct" markdown={ codeOfConductMarkdown } /> },
+    { title: `Reimbursement`,   content: <Tab title="Reimbursement" markdown={ reimbursementMarkdown } /> },
   ], [])
   const tabList = useMemo(() => Object.keys(tabs).map(key => tabs[key].content ? ({ key, tab: tabs[key].title }) : null).filter(tab => tab !== null), [tabs])
   const tabContents = useMemo(() => Object.keys(tabs).reduce((obj, key) => tabs[key].content ? ({ ...obj, [key]: tabs[key].content }) : obj, {}), [tabs])
